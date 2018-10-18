@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/super_hero' do
-
+      binding.pry
       # erb :super_hero
     end
 
