@@ -11,7 +11,7 @@ class App < Sinatra::Base
 
     post '/teams' do
       binding.pry
-       erb :super_hero
+      #  erb :super_hero
     end
 
 
