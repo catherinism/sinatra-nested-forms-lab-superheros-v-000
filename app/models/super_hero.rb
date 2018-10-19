@@ -6,7 +6,7 @@ class Superhero
 
   def initialize(params)
     @name = params[:name]
-    @motto = params[:power]
+    @power = params[:power]
     @bio = params[:bio]
     @@superheroes << self
   end
