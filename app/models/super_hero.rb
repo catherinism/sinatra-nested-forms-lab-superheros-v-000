@@ -2,7 +2,7 @@ class Superhero
 
   @@superheroes =[]
 
-  attr_reader :name, :motto
+  attr_reader :name, :power, :bio
 
   def initialize(param)
     @name = params[:name]
@@ -11,7 +11,7 @@ class Superhero
   end
 
   def self.all
-    @@superheroes    
+    @@superheroes
   end
 
 end
