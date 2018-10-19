@@ -4,8 +4,8 @@ class Superhero
 
   attr_reader :name, :motto
 
-  def initialize(name, motto)
-    @name = name
+  def initialize(param)
+    @name =
     @motto = motto
     @@superheroes << self
   end
