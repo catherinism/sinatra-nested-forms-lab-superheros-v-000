@@ -7,7 +7,7 @@ class Superhero
   def initialize(name, motto)
     @name = name
     @motto = motto
-
+    @@superheroes << self
   end
 
 end
