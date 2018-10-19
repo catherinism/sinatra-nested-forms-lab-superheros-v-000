@@ -7,7 +7,7 @@ class App < Sinatra::Base
 
     get '/' do
 
-      erb :super_hero
+      erb :index
     end
 
     post '/teams' do
