@@ -5,7 +5,7 @@ class Superhero
   attr_reader :name, :motto
 
   def initialize(param)
-    @name =
+    @name = params[:name]
     @motto = motto
     @@superheroes << self
   end
