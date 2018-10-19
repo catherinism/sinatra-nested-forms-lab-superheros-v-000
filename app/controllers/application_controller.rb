@@ -11,7 +11,7 @@ class App < Sinatra::Base
     end
 
     post '/teams' do
-      "hello"
+      params["team"]["members"]
 
        erb :team
     end
