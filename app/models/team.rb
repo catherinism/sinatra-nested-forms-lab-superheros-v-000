@@ -4,7 +4,7 @@ class Team
 
   attr_reader :name, :motto
 
-  def initialize(param)
+  def initialize(params)
     @name = params[:name]
     @motto = params[:motto]
     @@teams << self
